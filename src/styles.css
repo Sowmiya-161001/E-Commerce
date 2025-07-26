@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+@import "tailwindcss";
+@keyframes blink-loop {
+  0%, 100% {
+    color: #f59e0b; /* amber-500 */
+  }
+  50% {
+    color: white;
+  }
+}
+
+.blink-loop {
+  animation: blink-loop 1s ease-in-out infinite;
+}
