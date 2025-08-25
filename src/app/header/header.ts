@@ -93,14 +93,5 @@ ngOnDestroy() {
   toggleDropdown(section: 'shop' | 'collection' | 'pages') {
     this.dropdowns[section] = !this.dropdowns[section];
   }
-
-
-
-
-
+    
 }
-
-
-
-
-
